@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071284F31F12F2FC0052F5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071284F21F12F2FC0052F5AB /* AppDelegate.swift */; };
+		071284F91F12F2FC0052F5AB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071284F81F12F2FC0052F5AB /* GameScene.swift */; };
+		071284FB1F12F2FC0052F5AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071284FA1F12F2FC0052F5AB /* GameViewController.swift */; };
+		071284FE1F12F2FC0052F5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071284FC1F12F2FC0052F5AB /* Main.storyboard */; };
+		071285001F12F2FC0052F5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071284FF1F12F2FC0052F5AB /* Assets.xcassets */; };
+		071285031F12F2FC0052F5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071285011F12F2FC0052F5AB /* LaunchScreen.storyboard */; };
+		0762327D1F12F6F000D8C9AE /* spaceCowsBackgroundMusic.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0762327C1F12F6F000D8C9AE /* spaceCowsBackgroundMusic.caf */; };
+		076232811F131F7A00D8C9AE /* Cow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076232801F131F7A00D8C9AE /* Cow.swift */; };
+		077142741F1AF0E6009EE44A /* UFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077142731F1AF0E6009EE44A /* UFO.swift */; };
+		077142761F1B0DCE009EE44A /* TractorBeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077142751F1B0DCE009EE44A /* TractorBeam.swift */; };
+		077142781F1B4A14009EE44A /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077142771F1B4A14009EE44A /* PhysicsCategories.swift */; };
+		0771427A1F1BE152009EE44A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077142791F1BE152009EE44A /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		071284EF1F12F2FC0052F5AB /* SpaceCows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceCows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071284F21F12F2FC0052F5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		071284F81F12F2FC0052F5AB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		071284FA1F12F2FC0052F5AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		071284FD1F12F2FC0052F5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071284FF1F12F2FC0052F5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		071285021F12F2FC0052F5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		071285041F12F2FC0052F5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0762327C1F12F6F000D8C9AE /* spaceCowsBackgroundMusic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spaceCowsBackgroundMusic.caf; sourceTree = "<group>"; };
+		076232801F131F7A00D8C9AE /* Cow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cow.swift; sourceTree = "<group>"; };
+		077142731F1AF0E6009EE44A /* UFO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UFO.swift; sourceTree = "<group>"; };
+		077142751F1B0DCE009EE44A /* TractorBeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TractorBeam.swift; sourceTree = "<group>"; };
+		077142771F1B4A14009EE44A /* PhysicsCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsCategories.swift; sourceTree = "<group>"; };
+		077142791F1BE152009EE44A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071284EC1F12F2FC0052F5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071284E61F12F2FC0052F5AB = {
+			isa = PBXGroup;
+			children = (
+				0762327B1F12F6B200D8C9AE /* Sounds */,
+				071284F11F12F2FC0052F5AB /* SpaceCows */,
+				071284F01F12F2FC0052F5AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071284F01F12F2FC0052F5AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071284EF1F12F2FC0052F5AB /* SpaceCows.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071284F11F12F2FC0052F5AB /* SpaceCows */ = {
+			isa = PBXGroup;
+			children = (
+				071284F21F12F2FC0052F5AB /* AppDelegate.swift */,
+				076232801F131F7A00D8C9AE /* Cow.swift */,
+				071284F81F12F2FC0052F5AB /* GameScene.swift */,
+				071284FA1F12F2FC0052F5AB /* GameViewController.swift */,
+				071284FC1F12F2FC0052F5AB /* Main.storyboard */,
+				071284FF1F12F2FC0052F5AB /* Assets.xcassets */,
+				071285011F12F2FC0052F5AB /* LaunchScreen.storyboard */,
+				071285041F12F2FC0052F5AB /* Info.plist */,
+				077142731F1AF0E6009EE44A /* UFO.swift */,
+				077142751F1B0DCE009EE44A /* TractorBeam.swift */,
+				077142771F1B4A14009EE44A /* PhysicsCategories.swift */,
+				077142791F1BE152009EE44A /* Utils.swift */,
+			);
+			path = SpaceCows;
+			sourceTree = "<group>";
+		};
+		0762327B1F12F6B200D8C9AE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0762327C1F12F6F000D8C9AE /* spaceCowsBackgroundMusic.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071284EE1F12F2FC0052F5AB /* SpaceCows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071285071F12F2FC0052F5AB /* Build configuration list for PBXNativeTarget "SpaceCows" */;
+			buildPhases = (
+				071284EB1F12F2FC0052F5AB /* Sources */,
+				071284EC1F12F2FC0052F5AB /* Frameworks */,
+				071284ED1F12F2FC0052F5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceCows;
+			productName = SpaceCows;
+			productReference = 071284EF1F12F2FC0052F5AB /* SpaceCows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071284E71F12F2FC0052F5AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Grace Hauk";
+				TargetAttributes = {
+					071284EE1F12F2FC0052F5AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 071284EA1F12F2FC0052F5AB /* Build configuration list for PBXProject "SpaceCows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071284E61F12F2FC0052F5AB;
+			productRefGroup = 071284F01F12F2FC0052F5AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071284EE1F12F2FC0052F5AB /* SpaceCows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071284ED1F12F2FC0052F5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071284FE1F12F2FC0052F5AB /* Main.storyboard in Resources */,
+				0762327D1F12F6F000D8C9AE /* spaceCowsBackgroundMusic.caf in Resources */,
+				071285001F12F2FC0052F5AB /* Assets.xcassets in Resources */,
+				071285031F12F2FC0052F5AB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071284EB1F12F2FC0052F5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077142761F1B0DCE009EE44A /* TractorBeam.swift in Sources */,
+				071284F91F12F2FC0052F5AB /* GameScene.swift in Sources */,
+				076232811F131F7A00D8C9AE /* Cow.swift in Sources */,
+				071284FB1F12F2FC0052F5AB /* GameViewController.swift in Sources */,
+				077142781F1B4A14009EE44A /* PhysicsCategories.swift in Sources */,
+				071284F31F12F2FC0052F5AB /* AppDelegate.swift in Sources */,
+				077142741F1AF0E6009EE44A /* UFO.swift in Sources */,
+				0771427A1F1BE152009EE44A /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		071284FC1F12F2FC0052F5AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071284FD1F12F2FC0052F5AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071285011F12F2FC0052F5AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071285021F12F2FC0052F5AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071285051F12F2FC0052F5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071285061F12F2FC0052F5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071285081F12F2FC0052F5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
+				INFOPLIST_FILE = SpaceCows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauk.SpaceCows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		071285091F12F2FC0052F5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				INFOPLIST_FILE = SpaceCows/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauk.SpaceCows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071284EA1F12F2FC0052F5AB /* Build configuration list for PBXProject "SpaceCows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071285051F12F2FC0052F5AB /* Debug */,
+				071285061F12F2FC0052F5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071285071F12F2FC0052F5AB /* Build configuration list for PBXNativeTarget "SpaceCows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071285081F12F2FC0052F5AB /* Debug */,
+				071285091F12F2FC0052F5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071284E71F12F2FC0052F5AB /* Project object */;
+}
